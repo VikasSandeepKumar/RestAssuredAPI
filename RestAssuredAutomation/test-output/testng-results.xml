@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="41" passed="40" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-16T13:30:27 IST" name="EmployeesRestAssuredSuite" finished-at="2023-10-16T13:30:48 IST" duration-ms="20612">
+    <groups>
+    </groups>
+    <test started-at="2023-10-16T13:30:27 IST" name="EmpRestAPITest" finished-at="2023-10-16T13:30:48 IST" duration-ms="20612">
+      <class name="com.employeeapi.testCases.TC001_Get_All_Employee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:27 IST" name="setup" finished-at="2023-10-16T13:30:27 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:27 IST" name="getAllEmployees" finished-at="2023-10-16T13:30:30 IST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:30 IST" name="checkContentLength" finished-at="2023-10-16T13:30:30 IST" duration-ms="19" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Cannot parse null string]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Cannot parse null string
+at java.base/java.lang.Integer.parseInt(Integer.java:623)
+at java.base/java.lang.Integer.parseInt(Integer.java:777)
+at com.employeeapi.testCases.TC001_Get_All_Employee.checkContentLength(TC001_Get_All_Employee.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkCookies()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:30 IST" name="checkCookies" finished-at="2023-10-16T13:30:30 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCookies -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:30 IST" name="checkResponseBody" finished-at="2023-10-16T13:30:30 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseCode()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:30 IST" name="checkResponseCode" finished-at="2023-10-16T13:30:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseCode -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:30 IST" name="checkResponseTime" finished-at="2023-10-16T13:30:30 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkserverType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:30 IST" name="checkserverType" finished-at="2023-10-16T13:30:30 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method signature="checkstatusLine()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:30 IST" name="checkstatusLine" finished-at="2023-10-16T13:30:30 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employee@f6efaab]" started-at="2023-10-16T13:30:30 IST" name="tearDown" finished-at="2023-10-16T13:30:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employee -->
+      <class name="com.employeeapi.testCases.TC004_PUT_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:35 IST" name="setup" finished-at="2023-10-16T13:30:35 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:35 IST" name="createEmployee" finished-at="2023-10-16T13:30:41 IST" duration-ms="5389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method signature="CheckResponseBody()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="CheckResponseBody" finished-at="2023-10-16T13:30:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseBody -->
+        <test-method signature="checkCacheControl()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="checkCacheControl" finished-at="2023-10-16T13:30:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCacheControl -->
+        <test-method signature="checkConnection()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="checkConnection" finished-at="2023-10-16T13:30:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnection -->
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="checkContentType" finished-at="2023-10-16T13:30:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="checkResponseTime" finished-at="2023-10-16T13:30:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="checkStatusCode" finished-at="2023-10-16T13:30:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="checkStatusLine" finished-at="2023-10-16T13:30:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkVia()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="checkVia" finished-at="2023-10-16T13:30:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVia -->
+        <test-method signature="checkserverType()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="checkserverType" finished-at="2023-10-16T13:30:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC004_PUT_Employee_Record@4562e04d]" started-at="2023-10-16T13:30:41 IST" name="tearDown" finished-at="2023-10-16T13:30:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC004_PUT_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:30 IST" name="setup" finished-at="2023-10-16T13:30:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:30 IST" name="createEmployee" finished-at="2023-10-16T13:30:35 IST" duration-ms="5404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method signature="CheckResponseBody()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="CheckResponseBody" finished-at="2023-10-16T13:30:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseBody -->
+        <test-method signature="checkCacheControl()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkCacheControl" finished-at="2023-10-16T13:30:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCacheControl -->
+        <test-method signature="checkConnection()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkConnection" finished-at="2023-10-16T13:30:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnection -->
+        <test-method signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkContentLength" finished-at="2023-10-16T13:30:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkContentType" finished-at="2023-10-16T13:30:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkResponseTime" finished-at="2023-10-16T13:30:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkStatusCode" finished-at="2023-10-16T13:30:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkStatusLine" finished-at="2023-10-16T13:30:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkVia()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkVia" finished-at="2023-10-16T13:30:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVia -->
+        <test-method signature="checkserverType()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="checkserverType" finished-at="2023-10-16T13:30:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@313ac989]" started-at="2023-10-16T13:30:35 IST" name="tearDown" finished-at="2023-10-16T13:30:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:41 IST" name="setup" finished-at="2023-10-16T13:30:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:41 IST" name="createEmployee" finished-at="2023-10-16T13:30:47 IST" duration-ms="6552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method signature="CheckResponseBody()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:47 IST" name="CheckResponseBody" finished-at="2023-10-16T13:30:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseBody -->
+        <test-method signature="checkCacheControl()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:47 IST" name="checkCacheControl" finished-at="2023-10-16T13:30:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCacheControl -->
+        <test-method signature="checkConnection()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:48 IST" name="checkConnection" finished-at="2023-10-16T13:30:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnection -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:48 IST" name="checkResponseTime" finished-at="2023-10-16T13:30:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:48 IST" name="checkStatusCode" finished-at="2023-10-16T13:30:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:48 IST" name="checkStatusLine" finished-at="2023-10-16T13:30:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkVia()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:48 IST" name="checkVia" finished-at="2023-10-16T13:30:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVia -->
+        <test-method signature="checkserverType()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:48 IST" name="checkserverType" finished-at="2023-10-16T13:30:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@2a65fe7c]" started-at="2023-10-16T13:30:48 IST" name="tearDown" finished-at="2023-10-16T13:30:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC005_Delete_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="setup" finished-at="2023-10-16T13:30:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getEmployeeData()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="getEmployeeData" finished-at="2023-10-16T13:30:30 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeData -->
+        <test-method signature="checkCacheControl()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="checkCacheControl" finished-at="2023-10-16T13:30:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCacheControl -->
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="checkContentType" finished-at="2023-10-16T13:30:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="checkResponseBody" finished-at="2023-10-16T13:30:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="checkResponseTime" finished-at="2023-10-16T13:30:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="checkStatusCode" finished-at="2023-10-16T13:30:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="checkStatusLine" finished-at="2023-10-16T13:30:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkserverType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="checkserverType" finished-at="2023-10-16T13:30:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@35d019a3]" started-at="2023-10-16T13:30:30 IST" name="tearDown" finished-at="2023-10-16T13:30:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC002_Get_Single_Employee_Record -->
+    </test> <!-- EmpRestAPITest -->
+  </suite> <!-- EmployeesRestAssuredSuite -->
+</testng-results>
